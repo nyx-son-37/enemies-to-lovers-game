@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)file:///C:/Users/a.dasilvasouzarod733/.gemini/antigravity/scratch/romantic-game/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Choice: Alex &amp; Riley</title>
+    <!-- Use modern typography -->
+    <link href="./Romantic Choice_ Alex &amp; Riley_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Romantic Choice_ Alex &amp; Riley_files/style.css">
+</head>
+<body>
+    <div id="background-layer"></div>
+
+    <main class="game-container fade-in" id="game-container">
+        <!-- Header with stats -->
+        <header class="stats-bar fade-in hidden" id="stats-bar">
+            <div class="stat alex-stat">
+                <span class="stat-icon">🔥</span>
+                <span class="stat-label">Alex:</span>
+                <span id="stat-alex" class="stat-value">13</span>
+            </div>
+            <div class="stat riley-stat">
+                <span class="stat-icon">💕</span>
+                <span class="stat-label">Riley:</span>
+                <span id="stat-riley" class="stat-value">7</span>
+            </div>
+            <div class="stat romance-stat">
+                <span class="stat-icon">💗</span>
+                <span class="stat-label">Romance:</span>
+                <span id="stat-romance" class="stat-value">3</span>
+            </div>
+            <div class="stat jealousy-stat">
+                <span class="stat-icon">😈</span>
+                <span class="stat-label">Jealousy:</span>
+                <span id="stat-jealousy" class="stat-value">1</span>
+            </div>
+        </header>
+
+        <!-- Narrative panel -->
+        <section class="narrative-panel">
+            <h1 id="chapter-title" class="hidden">A New Love Story</h1>
+            <div id="story-text" class="story-text">
+        <div style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">The End</div>
+        <div style="font-size: 1.2rem; color: var(--text-secondary); text-align: center; margin-bottom: 1rem;">Final Stats:</div>
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center; font-size: 1.4rem;">
+            <div><span style="color: var(--alex-color)">Alex:</span> 13 🔥</div>
+            <div><span style="color: var(--riley-color)">Riley:</span> 7 💕</div>
+            <div><span style="color: var(--romance-color)">Romance:</span> 3 💗</div>
+            <div><span style="color: var(--jealousy-color)">Jealousy:</span> 1 😈</div>
+        </div>
+    </div>
+        </section>
+
+        <!-- Choices area -->
+        <section class="choices-panel" id="choices-panel"><button class="choice-btn primary-btn pulse-anim" style="margin-top: 2rem;">Play Again</button></section>
+        
+        <!-- Input area -->
+        <section class="input-panel hidden" id="input-panel">
+            <input type="text" id="player-input" placeholder="Enter your name..." autocomplete="off">
+            <button id="submit-btn" class="choice-btn primary-btn">Start Story</button>
+        </section>
+    </main>
+
+    <!-- Initial Title Screen -->
+    <div id="title-screen" class="title-screen fade-out hidden">
+        <h1 class="title-text">Echoes of the Heart</h1>
+        <p class="subtitle">A tale of two loves...</p>
+        <button id="start-game-btn" class="choice-btn pulse-anim">Play Now</button>
+    </div>
+
+    <script src="./Romantic Choice_ Alex &amp; Riley_files/game.js"></script>
+
+
+</body></html>
